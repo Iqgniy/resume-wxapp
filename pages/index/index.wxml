@@ -1,0 +1,116 @@
+<!--index.wxml-->
+<view id="resume">
+  <!-- 个人信息 -->
+  <view id='head'>
+    <text style='font-size:120%;font-weight: bold'>Iqgniy</text>
+    <text style='font-size:150%;padding:3% 0;border-top:1px solid #8C8C8C;border-bottom:2px solid #8C8C8C;margin:3% 0'>未来的程序员</text>
+    <view>
+      <view id='head-info'>
+        <text>男/1996.4</text>
+        <text>你说这样多好•计算机科学与技术</text>
+        <text>2020年毕业</text>
+      </view>
+      <view id='head-icon'>
+        <text class="iconfont icon-zhuye" bindtap='copyBlog'></text>
+        <text class="iconfont icon-github" bindtap='copyGithub'></text>
+        <text class="iconfont icon-duanxin" bindtap="copyMail"></text>
+        <text class="iconfont icon-phone" bindtap='actionSheetTap'></text>
+      </view>
+    </view>
+  </view>
+
+
+  <view id='body'>
+    <!-- 个人项目 -->
+    <view>
+      <view class='subtitle'>
+        <view></view>
+        <text>公众号</text>
+        <view></view>
+      </view>
+
+      <view>
+        <text class='project-name'>个人微信公众号</text>
+        <text class='tag' bindtap='copyDemo'>demo</text>
+        <view class='explain'>
+          <text>哪里找这么好</text>
+          <text>微信机器人服务，聊天，各种功能。</text>
+          <text>时不时更新一些小文章，小技巧</text>
+        </view>
+      </view>
+
+      <view>
+        <text class='project-name'>公众号开发者</text>
+        <text class='tag'>this</text>
+        <view class='explain'>
+          <text>Iqgniy</text>
+          <text>有事请按照上诉方式联系，虽然不一定能联系上。</text>
+        </view>
+      </view>
+    </view>
+
+
+    <!-- 个人技能 -->
+    <view>
+      <view class='subtitle'>
+        <view></view>
+        <text>技能</text>
+        <view></view>
+      </view>
+
+      <view>
+        <text class='project-name'>Vue</text>
+        <text class='tag'>学习</text>
+        <view class='explain'>
+          <text>JavaScript</text>
+          <text>vue-cli + vue-route + vuex</text>
+        </view>
+      </view>
+
+      <view>
+        <text class='project-name'>工具</text>
+        <text class='tag'>熟悉</text>
+        <view class='explain'>
+          <text>github、vscode</text>
+          <text></text>
+        </view>
+      </view>
+    </view>
+
+    <!-- 工作经历 -->
+    <view>
+      <view class='subtitle'>
+        <view></view>
+        <text>经历</text>
+        <view></view>
+      </view>
+
+      <view>
+        <text class='project-name'>Github</text>
+        <text class='project-subname'>（2017-至今）</text>
+        <text class='tag'>工作</text>
+        <view class='explain'>
+          <text>个人爱好学习中</text>
+          <text style='text-indent:8%;margin-top: 2%;line-height: 150%'>此项目与公众号无关，但是我花费了非常多的空闲时间在github上面，非常有意思！</text>
+        </view>
+      </view>
+    </view>
+
+    <!-- 个人介绍 -->
+    <view id='person-introduce'>
+      <view class='subtitle'>
+        <view></view>
+        <text>介绍</text>
+        <view></view>
+      </view>
+      <text class='project-name'>自我介绍</text>
+      <text class='tag'>自学</text>
+      <view class='explain'>
+        <text style='text-indent:8%;line-height: 150%'>接触微信小程序时间不长，从微信小程序再到 Vue ，一路自学过来。</text>
+        <text style='text-indent:8%;margin-top: 2%;line-height: 150%'>可能有很多概念我还没有听过，但谁又不是从小白过来的。边学边做，边做边学。慢慢做的更好咯。</text>
+      </view>
+
+    </view>
+
+  </view>
+</view>
