@@ -12,7 +12,7 @@
 	},
 	"compileType": "miniprogram",
 	"libVersion": "2.3.0",
-	"appid": "wx35cd6c11e3ced05d",
+	"appid": "你的小程序开发ID",
 	"projectname": "resume",
 	"debugOptions": {
 		"hidedInDevtools": []
