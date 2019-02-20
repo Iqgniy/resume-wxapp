@@ -2,9 +2,9 @@
 
 Page({
   data: {
-    blog: 'https://iqgniy。github.io',
-    phone: '16688203506',
-    mail: 'iqgniy@163.com',
+    blog: '你的博客',
+    phone: '你的手机号',
+    mail: '你的邮箱',
     github: 'https://github.com/Iqgniy',
     demo:"http://iqgniy.github.io"
   },
@@ -42,7 +42,7 @@ Page({
         console.log(e.tapIndex)
         if (e.tapIndex===0){
             wx.makePhoneCall({
-              phoneNumber: '16688203506',
+              phoneNumber: '你的手机号',
               success() {
                 console.log('成功拨打电话')
               }
@@ -50,7 +50,7 @@ Page({
         }
         else if (e.tapIndex === 1){
           wx.setClipboardData({
-            data: '16688203506',
+            data: '你的手机号',
             success() {
               wx.showToast({
                 title: '内容已复制到剪贴板，请用浏览器打开。',
